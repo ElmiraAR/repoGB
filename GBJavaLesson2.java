@@ -17,15 +17,15 @@ class GBJavaLesson2 {
         return a+b>10 && a+b<=20;
     }
 
-    static void checkNumbSign (int a) {
+    static void checkNumbSign(int a) {
         System.out.println(a>=0? "pozitive":"negative");
     }
 
-    static boolean checkNumbSignConv (int a) {
-        return a<0? true:false;
+    static boolean checkNumbSignConv(int a) {
+        return a<0;
     }
 
-    static void printRepeatWorld (String a, int b) {
+    static void printRepeatWorld(String a, int b) {
         for (int i=0; i<b; i++) {
              System.out.println(a);
         }
